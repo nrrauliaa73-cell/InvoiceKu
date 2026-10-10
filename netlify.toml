@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+
+# Netlify's Next.js adapter is managed automatically by the OpenNext integration.
+# Do not set a static publish directory for this server-rendered application.
+
+[build.environment]
+  NODE_VERSION = "20"
